@@ -1,4 +1,4 @@
-const fs=require("fs")
+const fs=require("fs");
 const {Writable}=require("stream")
 class FileWrite extends Writable{
 constructor({highWaterMark,fileName})
